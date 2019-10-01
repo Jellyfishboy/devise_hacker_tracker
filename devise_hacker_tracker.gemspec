@@ -27,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "factory_girl", "~> 4.5"
   spec.add_development_dependency 'database_cleaner', "~> 1.4"
   spec.add_runtime_dependency 'devise', '>= 3.4'
-  spec.add_runtime_dependency 'rails', '~> 4.2'
+  spec.add_runtime_dependency 'rails', '~> 5.2'
 end
