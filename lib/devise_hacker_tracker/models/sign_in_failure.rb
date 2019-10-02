@@ -9,6 +9,6 @@ class SignInFailure < ActiveRecord::Base
   scope :outdated, -> { where("created_at <= '#{Devise.ip_block_time.ago.utc}'") }
 
   def self.clear_outdated!
-    outdated.destroy_all
+#     outdated.destroy_all
   end
 end
